@@ -1,0 +1,13 @@
+{
+  "name": "node-html-to-pdf-converter",
+  "version": "1.0.0",
+  "description": "Node application to convert dynamic html to pdf format",
+  "main": "index.js",
+  "repository": "git@github.com:thefrugaldev/node-html-to-pdf-converter.git",
+  "author": "thefrugaldev",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.5.3",
+    "puppeteer": "^2.0.0"
+  }
+}

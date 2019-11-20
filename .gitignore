@@ -1,0 +1,5 @@
+node_modules/
+
+#exclude pdf files but not directory
+src/pdf/*
+!src/pdf/.gitkeep
