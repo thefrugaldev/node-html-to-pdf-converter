@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Developer Profile</title>
+	<head>
+	<style type="text/css">
+		body{
+			/* width: 1200px; */
+			margin: 0;
+			padding: 0px;
+			font-size: 16px;
+			line-height: 24px;
+			font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+			color: rgb(33,33,33);
+		}
+		.profile-header{
+            text-align:initial;
+			background: rgb(34,47,62);
+			color: rgb(102,102,102);
+			padding: 15px;
+			padding-left: 200px;
+			box-sizing: border-box;
+			display: block;
+			position: relative;
+		}
+		.profile-header .logo{
+			position: absolute;
+			top: 25px;
+			left: 20px;
+			width: 75px;
+		}
+		.profile-footer {
+			background: rgb(34,47,62);
+			color: rgb(102,102,102);
+			padding: 15px;
+			box-sizing: border-box;
+			display: block;
+			position: absolute;
+            width: 100%;
+            bottom: 0;
+		}
+		.profile-body {
+			width: 60%;
+			display: inline-block;
+			position: relative;
+			box-sizing: border-box;
+			vertical-align: top;
+		}
+		.profile-photo {
+			width: 30%;
+			display: inline-block;
+			position: relative;
+			vertical-align: top;
+			box-sizing: border-box;
+			margin: 15px;
+		}
+		.profile-body .info p {
+			padding: 5px;
+			display: block;
+			position: relative;
+		}
+	</style>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="profile-header">
+		<img src="./img/logo.png" class="logo">
+		<h3>{{name}}'s Developer Profile</h3>
+		<p>{{date}}</p>
+    </div>
+    <div class="container">
+        <div class="profile-photo">
+            <img width="100%" src="img/profile-pic.jpg">
+        </div>
+        <div class="profile-body">
+            <div class="info">
+                <p><strong>Developer:</strong> {{name}}</p>
+                <p><strong>Age:</strong> {{age}}</p>
+                <p><strong>Birthdate:</strong> {{birthdate}}</p>
+                <p><strong>Hobby:</strong> {{hobby}}</p>
+                <p><strong>Favorite Team:</strong> {{fav_team}}</p>
+                <p><strong>Favorite Language:</strong> {{fav_lang}}</p>
+            </div>
+        </div>
+    </div>
+	<div class="profile-footer">
+		<a href='https://github.com/thefrugaldev'><img src='./img/github.png' alt='GitHub'/></a>
+		<a href='https://twitter.com/thefrugaldev'><img src='./img/twitter.png' alt='Twitter'/></a>
+		<a href='https://www.linkedin.com/in/tfd/'><img src='./img/linkedin.png' alt='LinkedIn'/></a>
+	</div>
+</body>
+</html>
